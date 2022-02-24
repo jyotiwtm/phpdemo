@@ -4,12 +4,15 @@ $username = "root";
 $password = "";
 $dbname = "crud";
 // Create connection
-$conn = mysqli_connect($servername, $username, $password ,$dbname );
+$Connection = mysqli_connect($servername, $username, $password ,$dbname);
 
 // Check connection
-if ($conn) {
+if (!$Connection) {
   die("Connection failed: " . mysqli_connect_error());
 }
-echo "Connected successfully";
+// else{
+//   echo "Connected successfully";
+
+// }
 
  ?>
