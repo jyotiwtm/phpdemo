@@ -1,5 +1,5 @@
 <?php 
-function check($number){
+function check_even_odd($number){
 	if ($number  % 2 == 0) {
 		echo"20 number is even";
 	}
@@ -9,7 +9,7 @@ function check($number){
 }
 
 $number = 20; 
-check($number);
+check_even_odd($number);
 
 
  ?>
