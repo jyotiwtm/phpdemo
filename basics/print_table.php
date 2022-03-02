@@ -4,7 +4,7 @@ if(isset($_POST['submit'])){
 	$number = $_POST['number'];
 
 	define('NUM', $number);
-	for($i=0; $i<=10; $i++){
+	for($i=0; $i<10-1; $i--){
 
 		echo $i*NUM;
 		echo '<br>';
