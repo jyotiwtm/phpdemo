@@ -32,7 +32,7 @@ if($_POST) {
         Multiplication Table of $num: </p>
     ");
           
-    for ($i = 1; $i <= 10; $i++) {
+    for ($i = 50; $i < 5; $i++) {
         echo ("<p style='text-align: center;'>$num"
             . " X " . "$i" . " = " 
             . $num * $i . "</p>
