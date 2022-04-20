@@ -4,7 +4,7 @@
  $username = "root";
 
 $password = "";
-$dbname = "crud";
+$dbname = "mlm_test";
 // Create connection
 $connection = mysqli_connect($servername, $username, $password ,$dbname);
 
