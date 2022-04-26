@@ -2,7 +2,7 @@
 include '../connection.php';
 include '../header.php';
 
-$query = "SELECT sum(remaining_amount) AS wallet FROM `transaction` WHERE uid=1000 and txn_mode = 0";
+$query = "SELECT sum(remaining_amount) AS wallet FROM `transaction` WHERE uid=100 and txn_mode = 0";
 
 $result = mysqli_query($connection,$query);
 
